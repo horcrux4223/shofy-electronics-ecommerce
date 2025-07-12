@@ -1,4 +1,7 @@
 name: Azure Static Web Apps CI/CD
+app_location: "/frontend"     # Where your frontend lives
+api_location: "/backend"      # Where your backend API is
+output_location: "build"      # Output dir (React: 'build', Angular: 'dist')
 
 on:
   push:
